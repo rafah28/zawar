@@ -153,7 +153,49 @@ function closemod(){
     document.getElementById("simpalmodal5").style.display= 'none';
 }
 
+//$('.username-check').on('click', function(){
+//    var target = $('.username-target'),
+//        feedback = $('.username-feedback');
+//    
+//    $.ajax({
+//        url: 'username.php',
+//        type: 'get',
+//        data: {
+//            username: target.val()
+//        },
+//        dataType: 'json',
+//        success: function(data){
+//            console.log(data);
+//        }
+//        error:function(){
+//        document.getElementById('checked').style.display = "block";
+//        console.log(Error);
+//    }
+//    });
+    
+    
+    
+    
 
+
+
+//
+// function val(){
+//     if(frm.Email.value==" "){
+//         alert("Please enter your Email Address");
+//         frm.Email.focus();
+//         return focus;
+//     }
+//     var reg =  /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
+//     
+//     if(reg.test(frm.Email.value) == false)
+//         {
+//             alert('Invalid Email Address');
+//             frm.Email.focus();
+//             return false;
+//         }
+//     return tr;
+// }
 
 
 function validateEmail(email) {
@@ -174,4 +216,6 @@ function validate() {
   return false;
 }
 
-$("#validate").bind("click", validate);
+$("#sndmss").bind("click", validate);
+
+
